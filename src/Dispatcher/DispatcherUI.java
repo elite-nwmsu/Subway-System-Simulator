@@ -42,6 +42,7 @@ public class DispatcherUI extends JPanel {
         System.out.println(trackA.toString());
 
         for (int i = 0; i < trackArrayList.size(); i++) {
+            
             System.out.println("in dummy for");
             this.sectionId = trackArrayList.get(i).getSectionId();
             this.sectionLength = trackArrayList.get(i).getSectionLength();
