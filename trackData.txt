@@ -25,7 +25,7 @@ S12-1,1950,110,normal
 S13-1,400,75,normal
 S14-1,400,75,normal
 S15-1,1500,80,normal
-S16-1,1600,70,normal
+S16-1,16000,70,normal
 S17-1,400,65,normal
 S18-1,500,85,normal
 S19-1,500,100,station

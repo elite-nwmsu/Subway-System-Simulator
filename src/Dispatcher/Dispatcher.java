@@ -21,13 +21,13 @@ public class Dispatcher extends JPanel {
      
      JFrame frame = new JFrame("Dispatcher");
      frame.setVisible(true);
-     frame.setSize(1000,600);
+     frame.setSize(1100,700);
      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
      
     
      
      DispatcherUI track = new DispatcherUI();
-     track.dummy();
+     //track.dummy();
      frame.add(track);
      track.drawing();
      
