@@ -97,9 +97,11 @@ public class DispatcherUI extends JPanel {
 
         }
         System.out.println("Section Id --- pixels\n");
+       
         for (TrackPixelMap secs : sectionLengthPixelsArray) {
             System.out.println(secs.SectionId + "       --- " + secs.sectionLengthPixels);
         }
 
     }
 }
+ //edited by mahesh
