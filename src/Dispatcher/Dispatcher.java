@@ -30,6 +30,8 @@ public class Dispatcher extends JFrame {
 //        frame.getContentPane().add(pane);
      
      
+
+
      DispatcherUI track = new DispatcherUI();
      frame.add(track);
      track.drawing();
