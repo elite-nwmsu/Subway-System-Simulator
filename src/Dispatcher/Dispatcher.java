@@ -8,12 +8,13 @@ package Dispatcher;
 import java.io.*;
 import javax.swing.*;
 import Tracks.*;
+import java.awt.Color;
 
 /**
  *
  * @author Grevil Lopes
  */
-public class Dispatcher extends JPanel {
+public class Dispatcher extends JFrame {
  public static void main(String[] args) throws FileNotFoundException{
      
      TrackReader read = new TrackReader();
@@ -21,21 +22,22 @@ public class Dispatcher extends JPanel {
      
      JFrame frame = new JFrame("Dispatcher");
      frame.setVisible(true);
-     frame.setSize(1100,700);
+     frame.setExtendedState(JFrame.MAXIMIZED_BOTH); 
+     //frame.setSize(1280,800);
      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
      
-    
+//     JScrollPane pane = new JScrollPane(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS, JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+//        frame.getContentPane().add(pane);
+     
      
      DispatcherUI track = new DispatcherUI();
-     //track.dummy();
      frame.add(track);
      track.drawing();
      
+
+     
 //     JButton stop = new JButton("STOP");
-//     stop.setSize(20, 40);
 //     frame.add(stop);
-     
-     
-     
+   
  }
 }

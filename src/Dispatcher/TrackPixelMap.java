@@ -33,6 +33,11 @@ public class TrackPixelMap {
     public void setSectionLengthPixels(int sectionLengthPixels) {
         this.sectionLengthPixels = sectionLengthPixels;
     }
+
+    @Override
+    public String toString() {
+        return "TrackPixelMap{" + "SectionId=" + SectionId + ", sectionLengthPixels=" + sectionLengthPixels + '}';
+    }
     
     
     
